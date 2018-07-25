@@ -370,6 +370,7 @@ button {
   background-size: cover;
   height: 150px;
   width: 220px;
+  opacity: 0;
 }
 @media screen and (min-width: 1025px) {
   .profile:before {
@@ -377,6 +378,7 @@ button {
     transform: rotate(60deg) translateX(-50%);
     transition: all 1.2s ease-out;
     transform-origin: 0;
+    opacity: 1;
   }
   .profile.active:before {
     width: 200px;
