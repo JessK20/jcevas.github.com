@@ -539,6 +539,15 @@ button {
     font-size: 25px;
   }
 }
+.project__landings {
+  padding-top: 40px;
+}
+.project__landings h5 {
+  font-size: 20px;
+  font-family: 'Gotham-Book', sans-serif;
+  color: #333;
+  text-decoration: underline;
+}
 .project__resize {
   padding-top: 35px;
   display: flex;
@@ -585,7 +594,7 @@ button {
 }
 @media screen and (min-width: 1025px) {
   .poject_item h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .habilidades {
@@ -623,7 +632,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: auto;
+  width: 100%;
   padding-bottom: 25px;
 }
 .habilidades__text strong {
@@ -635,10 +644,21 @@ button {
   font-size: 15px;
   color: #555;
   font-family: 'Gotham-Book', sans-serif;
-  line-height: 1.7;
-  max-width: 300px;
+  line-height: 1.8;
   text-align: left;
+  position: relative;
+  padding-left: 37px;
+}
+.habilidades__text p:before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  width: 15px;
+  height: 10px;
+  background: #8ac007;
+  border-radius: 100px/50px;
 }
 .habilidades_strong {
-  width: 45%;
+  padding-bottom: 20px;
 }
