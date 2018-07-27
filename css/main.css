@@ -553,7 +553,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 @media screen and (min-width: 767px) {
   .project__resize {
@@ -585,10 +585,9 @@ button {
 @media screen and (min-width: 767px) {
   .poject_item {
     padding-bottom: 40px;
-    width: calc(30% - 10px);
+    width: calc(32% - 10px);
   }
   .poject_item p {
-    display: block;
     padding-left: 0;
   }
 }
